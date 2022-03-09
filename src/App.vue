@@ -39,7 +39,7 @@
 
 
     <v-main>
-      <collection-page></collection-page>
+      <collection-list></collection-list>
     </v-main>
   </v-app>
 </template>
@@ -48,13 +48,12 @@
 
 
 
-import CollectionPage from "@/components/collectionPage";
+import collectionList from "@/components/collectionList";
 export default {
   name: 'App',
 
   components: {
-    CollectionPage
-
+    collectionList
   },
 
   data: () => ({

@@ -1,5 +1,8 @@
 <template>
-<collection-list></collection-list>
+  <div>
+    <collection-list></collection-list>
+  </div>
+
 </template>
 
 <script>
